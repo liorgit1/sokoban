@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sokoban game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="onInitGame()">
+    <button onclick="onInitGame()">restart</button>
+    <h1 class="winModal">you win!!</h1>
+    <h2>your scoer is <span class="score"></span></h2>
+    <h2>steps : <span class="steps"></span></h2>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+<button click id="utton"></button>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center
+}
+
+.cell img {
+    width: 25px;
+    height: auto
+}
+
+.floor {
+    background-color: gray
+}
+
+.wall {
+    background-color: brown
+}
+
+button {
+    margin-top: 1em;
+    height: 5em;
+    width: 250px;
+    margin-left: 015%;
+}
+
+.red {
+    background-color: red;
+}
+
+.target {
+    background-color: yellow;
+    
+}
+
+
+.green {
+    background-color: green;
+}
+
+.nothing {
+    background-color: transparent;
+
+}
